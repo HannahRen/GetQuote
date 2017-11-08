@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Random Quote
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/color/jquery.color-2.1.2.js"></script><!--jquery color libraries-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="quote-box">
+    <div class="quote-text">
+      <i class="fa fa-quote-left"> </i><span id="text"></span> <i class="fa fa-quote-right"> </i>
+    </div>
+    <div class="quote-author">
+      -- <span id="author"></span>
+    </div>
+    <div class="buttons">
+      <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a class="button" id="facebook-quote" title="Post this quote on facebook!" target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <div id="quotes">
+        <button class="button" id="new-quote">New quote</button>
+        <button class="button" id="cn-quote">名人名言</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer"> by <em>Yuehan Ren</em></div>
+</body>
